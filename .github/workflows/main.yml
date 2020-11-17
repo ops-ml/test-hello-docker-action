@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action steps
       id: hello
-      uses: actions/hello-docker-action@v1
+      uses: ops-ml/hello-docker-action@v1
       with:
         who-to-greet: "Soumya Ranjan"
     - name: Get the output time
